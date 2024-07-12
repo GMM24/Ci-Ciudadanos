@@ -1,0 +1,346 @@
+CRITICAL - 2024-07-12 14:38:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message1.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message1', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:52:55 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 3 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:52:57 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 3 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:53:34 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 3 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:53:34 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 3 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:53:35 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 3 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:54:22 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 3 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:54:26 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 3 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:55:20 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:57:04 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:57:06 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(18): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:58:28 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:58:42 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 3 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 16:59:55 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:00:56 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:30 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:31 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:38 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:39 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:40 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:41 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:41 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:42 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:43 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:02:43 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 17:03:48 --> ErrorException: Undefined variable $region
+[Method: GET, Route: ver_regiones]
+in APPPATH\Views\regiones.php on line 26.
+ 1 APPPATH\Views\regiones.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\regiones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(17): view('regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Regiones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
