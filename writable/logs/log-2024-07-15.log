@@ -1,0 +1,40 @@
+CRITICAL - 2024-07-15 14:47:18 --> ErrorException: Undefined variable $municipios
+[Method: GET, Route: ver_ciudadanos]
+in APPPATH\Views\ciudadanos.php on line 33.
+ 1 APPPATH\Views\ciudadanos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $municipios', 'C:\\xampp\\htdocs\\fs2024\\PHP-FRAMEWORK\\app\\Views\\ciudadanos.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\PHP-FRAMEWORK\\app\\Views\\ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ciudadanos', [], true)
+ 5 APPPATH\Controllers\Ciudadanos.php(12): view('ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ciudadanos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 15:02:30 --> Error: Call to undefined method App\Controllers\NivelesAcademicos::findAll()
+[Method: GET, Route: ver_nivelesacad]
+in APPPATH\Controllers\NivelesAcademicos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NivelesAcademicos->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NivelesAcademicos))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 15:03:59 --> ErrorException: Cannot declare class App\Controllers\NivelesAcademicos because the name is already in use
+[Method: GET, Route: ver_nivelesacad]
+in APPPATH\Controllers\NivelesAcademicos.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-15 15:06:03 --> ErrorException: Cannot declare class App\Controllers\NivelesAcademicos because the name is already in use
+[Method: GET, Route: ver_nivelesacad]
+in APPPATH\Controllers\NivelesAcademicos.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-15 15:06:51 --> Error: Call to undefined method App\Controllers\NivelesAcademicos::findAll()
+[Method: GET, Route: ver_nivelesacad]
+in APPPATH\Controllers\NivelesAcademicos.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NivelesAcademicos->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NivelesAcademicos))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
