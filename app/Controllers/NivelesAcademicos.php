@@ -8,7 +8,7 @@ class NivelesAcademicos extends BaseController
     {   
         $nivelacademico = new NivelesAcadModel();
         $datos['datos']=$nivelacademico->findAll();
-        
+
         return view ('nivelesacademicos',$datos);
     }
 }
