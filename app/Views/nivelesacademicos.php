@@ -36,6 +36,7 @@
       </nav>
     <table class="table table-border table-striped">
         <thead>
+        <a href="nuevo_nivel_acad" class="btn btn-primary">Nuevo Ciudadano</a>
             <tr>
                 <th>Código Academico</th>
                 <th>Nombre </th>
