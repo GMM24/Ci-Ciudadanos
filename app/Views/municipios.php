@@ -36,6 +36,7 @@
       </nav>
     <table class="table table-border table-striped">
         <thead>
+        <a href="nuevo_municipio" class="btn btn-primary">Nuevo Municipio</a>
             <tr>
                 <th>Código de Municipio</th>
                 <th>Nombre del Municipio </th>
@@ -51,7 +52,7 @@
                 <td><?php echo $municipios['cod_muni'];?></td>
                 <td><?php echo $municipios['nombre_municipio'];?></td>
                 <td><?php echo $municipios['cod_depto'];?></td>
-               
+                <td><a href="eliminar_municipio/<?php echo $municipios['cod_muni']?>" class="btn btn-danger" >Eliminar</a></td>
             </tr>
             <?php 
                 endforeach;

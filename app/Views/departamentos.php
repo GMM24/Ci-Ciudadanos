@@ -36,6 +36,7 @@
       </nav>
     <table class="table table-border table-striped">
         <thead>
+        <a href="nuevo_departamento" class="btn btn-primary">Nuevo Departamento</a>
             <tr>
                 <th>Código Departamento</th>
                 <th>Nombre Departamento</th>
@@ -51,7 +52,7 @@
                 <td><?php echo $departamentos['cod_depto'];?></td>
                 <td><?php echo $departamentos['nombre_depto'];?></td>
                 <td><?php echo $departamentos['cod_region'];?></td>
-               
+                <td><a href="eliminar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-danger" >Eliminar</a></td>
             </tr>
             <?php 
                 endforeach;

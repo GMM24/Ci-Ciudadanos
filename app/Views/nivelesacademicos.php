@@ -36,7 +36,7 @@
       </nav>
     <table class="table table-border table-striped">
         <thead>
-        <a href="nuevo_nivel_acad" class="btn btn-primary">Nuevo Ciudadano</a>
+        <a href="nuevo_nivel_acad" class="btn btn-primary">Nuevo Nivel</a>
             <tr>
                 <th>Código Academico</th>
                 <th>Nombre </th>
@@ -52,7 +52,7 @@
                 <td><?php echo $nivelesacademicos['cod_nivel_acad'];?></td>
                 <td><?php echo $nivelesacademicos['nombre'];?></td>
                 <td><?php echo $nivelesacademicos['descripcion'];?></td>
-               
+                <td><a href="eliminar_nivelacad/<?php echo $nivelesacademicos['cod_nivel_acad']?>" class="btn btn-danger" >Eliminar</a></td>
             </tr>
             <?php 
                 endforeach;

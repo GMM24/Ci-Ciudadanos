@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-        <h1>Nivel Academico</h1>
+        <h1>Regiones</h1>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="<?php echo base_url ('/');?>">Inicio</a>
@@ -34,19 +34,18 @@
           </div>
         </div>
       </nav>
-        <form action="agregar_nivel_acad" method="post">
+        <form action="agregar_region" method="post">
             <div class="mb-3">
-                <label for="txtNivelAcad" class="form-label">Código Academico</label>
-                  <input type="number" class="form-control" id="txtNivelAcad" name="txtNivelAcad" placeholder="Ingrese el nuevo codigo academico">
-
+                <label for="txtCodRegion" class="form-label">Código de Región</label>
+                 <input type="number" class="form-control" id="txtCodRegion" name="txtCodRegion" placeholder="Ingrese codigo de region">
             </div>
             <div class="mb-3">
                 <label for="txtNombre" class="form-label">Nombre</label>
-                 <input type="text" class="form-control" id="txtNombre" name="txtNombre" placeholder="Ingrese  nombre del nivel academico">
+                 <input type="text" class="form-control" id="txtNombre" name="txtNombre" placeholder="Ingrese Nombre de la region ">
             </div>
             <div class="mb-3">
                 <label for="txtDescripcion" class="form-label">Descripción</label>
-                  <input type="text" class="form-control" name="txtDescripcion" id="txtDescripcion" placeholder="Ingrese una breve descripcion del nivlel academico">
+                 <input type="text" class="form-control" id="txtDescripcion" name="txtDescripcion" placeholder="Ingrese Descripcion de la region">
             </div>
             <button type="submit" class="btn btn-primary" id="btnGuardar" name="btnGuardar">Enviar</button>
         </form>

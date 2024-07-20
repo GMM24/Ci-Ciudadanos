@@ -53,7 +53,7 @@
                         <option value="4">Diversificado</option>
                         <option value="5">Técnico(a)</option>
                         <option value="6">Licenciado(a)</option>
-                        <option value="7">Mahgister</option>
+                        <option value="7">Magister</option>
                         <option value="8">Doctorado</option>
                     </select>
             </div>

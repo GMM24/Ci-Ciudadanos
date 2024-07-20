@@ -11,4 +11,27 @@ class NivelesAcademicos extends BaseController
 
         return view ('nivelesacademicos',$datos);
     }
+    public function nuevoNivelAcademico(): string
+    {
+        return view('nivel_acad_nuevo');
+    }
+    public function agregarNivelAcademico()
+    {
+            $datos=[
+                'cod_nivel_acad'=> $this->request->getVar('txtNivelAcad'),
+                'nombre'=> $this->request->getVar('txtNombre'),
+                'descripcion'=> $this->request->getVar('txtDescripcion'),
+            ];
+        $nivelacademico = new NivelesAcadModel();
+        $nivelacademico->insert($datos); 
+        echo "Datos Guardados";
+        return redirect()->route('ver_nivelesacad');
+    }
+    public function eliminarNivelAcad($cod_nivel_acad=null)
+    {
+        $nivelacademico = new NivelesAcadModel();
+        $nivelacademico->delete(['cod_nivel_acad'=>$cod_nivel_acad]);
+        return redirect()->route('ver_nivelesacad');
+    }
+
 }

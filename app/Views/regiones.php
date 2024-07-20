@@ -36,6 +36,7 @@
       </nav>
     <table class="table table-border table-striped">
         <thead>
+        <a href="nueva_region" class="btn btn-primary">Nueva Region</a>
             <tr>
                 <th>Código</th>
                 <th>Nombre</th>
@@ -51,7 +52,7 @@
                 <td><?php echo $regiones['cod_region'];?></td>
                 <td><?php echo $regiones['nombre'];?></td>
                 <td><?php echo $regiones['descripcion'];?></td>
-               
+                <td><a href="eliminar_region/<?php echo $regiones['cod_region']?>" class="btn btn-danger" >Eliminar</a></td>
             </tr>
             <?php 
                 endforeach;

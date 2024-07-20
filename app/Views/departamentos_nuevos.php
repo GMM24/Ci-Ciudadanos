@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-        <h1>Nivel Academico</h1>
+        <h1>Departamentos</h1>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="<?php echo base_url ('/');?>">Inicio</a>
@@ -34,19 +34,18 @@
           </div>
         </div>
       </nav>
-        <form action="agregar_nivel_acad" method="post">
+        <form action="agregar_departamento" method="post">
             <div class="mb-3">
-                <label for="txtNivelAcad" class="form-label">Código Academico</label>
-                  <input type="number" class="form-control" id="txtNivelAcad" name="txtNivelAcad" placeholder="Ingrese el nuevo codigo academico">
-
+                <label for="txtCodDepto" class="form-label">Cógido de Departamento</label>
+                 <input type="number" class="form-control" id="txtCodDepto" name="txtCodDepto" placeholder="Ingrese Codigo de Departamento">
             </div>
             <div class="mb-3">
-                <label for="txtNombre" class="form-label">Nombre</label>
-                 <input type="text" class="form-control" id="txtNombre" name="txtNombre" placeholder="Ingrese  nombre del nivel academico">
+                <label for="txtNombreDepto" class="form-label">Nombre de Departamento</label>
+                 <input type="text" class="form-control" id="txtNombreDepto" name="txtNombreDepto" placeholder="Ingrese Nombre del Departamento">
             </div>
             <div class="mb-3">
-                <label for="txtDescripcion" class="form-label">Descripción</label>
-                  <input type="text" class="form-control" name="txtDescripcion" id="txtDescripcion" placeholder="Ingrese una breve descripcion del nivlel academico">
+                <label for="txtCodRegion" class="form-label">Códgio de Región</label>
+                 <input type="number" class="form-control" id="txtCodRegion" name="txtCodRegion" placeholder="Ingrese la region (1 al 8) para el Departamento">
             </div>
             <button type="submit" class="btn btn-primary" id="btnGuardar" name="btnGuardar">Enviar</button>
         </form>
