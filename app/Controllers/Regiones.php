@@ -32,10 +32,10 @@ class Regiones extends BaseController
         echo "Datos Guardados";
         return redirect()->route('ver_regiones');
     }
-    public function eliminarRegion($dpi=null)
+    public function eliminarRegion($cod_region=null)
     {
         $regiones = new RegionesModel();
-        $regiones->delete(['dpi'=>$dpi]);
+        $regiones->delete(['cod_region'=>$cod_region]);
         return redirect()->route('ver_regiones');
     }
 }
