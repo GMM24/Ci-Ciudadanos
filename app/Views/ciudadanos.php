@@ -36,10 +36,10 @@
       </nav>
     <table class="table table-border table-striped">
         <thead>
+        <a href="nuevo_ciudadano" class="btn btn-primary">Nuevo Ciudadano</a>
             <tr>
                 <th>Dpi</th>
-                <th>Apellido</th>
-                <th>Nombre</th>
+                <th>Apellido y Nombre</th>
                 <th>Dirección</th>
                 <th>Teléfono de Casa</th>
                 <th>Teléfono Movil</th>
@@ -56,15 +56,14 @@
             ?>
             <tr>
                 <td><?php echo $ciudadanos['dpi'];?></td>
-                <td><?php echo $ciudadanos['apellido'];?></td>
-                <td><?php echo $ciudadanos['nombre'];?></td>
-                <td><?php echo $ciudadanos['direccion'];?></td>
+                <td><?php echo $ciudadanos['apellido'].", ".$ciudadanos['nombre'];?></td>                <td><?php echo $ciudadanos['direccion'];?></td>
                 <td><?php echo $ciudadanos['tel_casa'];?></td>
                 <td><?php echo $ciudadanos['tel_movil'];?></td>
                 <td><?php echo $ciudadanos['email'];?></td>
                 <td><?php echo $ciudadanos['fechanac'];?></td>
                 <td><?php echo $ciudadanos['cod_nivel_acad'];?></td>
                 <td><?php echo $ciudadanos['cod_muni'];?></td>
+                <td><a href="eliminar_ciudadano/<?php echo $ciudadanos['dpi']?>" class="btn btn-danger" >Eliminar</a></td>
             </tr>
             <?php 
                 endforeach;
