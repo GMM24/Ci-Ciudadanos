@@ -26,6 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
+        /*'hostname'     => 'localhost',
+        'username'     => 'root',
+        'password'     => '',
+        'database'     => 'fs2024_ciudadanos',*/
         'hostname'     => 'sql305.infinityfree.com',
         'username'     => 'if0_36935719',
         'password'     => 'JSaoZ8DyZEZck8',
