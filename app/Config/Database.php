@@ -26,14 +26,14 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        /*'hostname'     => 'localhost',
+        'hostname'     => 'localhost',
         'username'     => 'root',
         'password'     => '',
-        'database'     => 'fs2024_ciudadanos',*/
-        'hostname'     => 'sql305.infinityfree.com',
+        'database'     => 'fs2024_ciudadanos',
+        /*'hostname'     => 'sql305.infinityfree.com',
         'username'     => 'if0_36935719',
         'password'     => 'JSaoZ8DyZEZck8',
-        'database'     => 'if0_36935719_fs2024_ciudadanos',
+        'database'     => 'if0_36935719_fs2024_ciudadanos',*/
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
