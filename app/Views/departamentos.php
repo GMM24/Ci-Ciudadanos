@@ -53,6 +53,8 @@
                 <td><?php echo $departamentos['nombre_depto'];?></td>
                 <td><?php echo $departamentos['cod_region'];?></td>
                 <td><a href="eliminar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-danger" >Eliminar</a></td>
+                <td><a href="actualizar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-info" >Actualizar</a></td>
+
             </tr>
             <?php 
                 endforeach;

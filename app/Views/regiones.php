@@ -53,6 +53,8 @@
                 <td><?php echo $regiones['nombre'];?></td>
                 <td><?php echo $regiones['descripcion'];?></td>
                 <td><a href="eliminar_region/<?php echo $regiones['cod_region']?>" class="btn btn-danger" >Eliminar</a></td>
+                <td><a href="actualizar_region/<?php echo $regiones['cod_region']?>" class="btn btn-info" >Actualizar</a></td>
+
             </tr>
             <?php 
                 endforeach;

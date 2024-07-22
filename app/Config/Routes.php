@@ -14,6 +14,8 @@ $routes->get('ver_ciudadanos', 'Ciudadanos::index');
 $routes->post('agregar_ciudadano', 'Ciudadanos::agregarCiudadano');
 $routes->get('nuevo_ciudadano', 'Ciudadanos::nuevoCiudadano');
 $routes->get('eliminar_ciudadano/(:num)', 'Ciudadanos::eliminarCiudadano/$1');
+$routes->get('actualizar_ciudadano/(:num)', 'Ciudadanos::actualizarCiudadano/$1');
+
 
 //DEPARTAMENTOS
 $routes->get('ver_departamentos', 'Departamentos::index');

@@ -9,11 +9,35 @@
   <body>
     <div class="container">
         <h1>Ciudadanos</h1>
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="<?php echo base_url ('/');?>">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ci Ciudadanos
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="<?php echo base_url ('ver_ciudadanos');?>">Ciudadanos</a></li>
+                    <li><a class="dropdown-item" href="<?php echo base_url ('ver_departamentos');?>">Departamentos</a></li>
+                    <li><a class="dropdown-item" href="<?php echo base_url ('ver_municipios');?>">Municipios</a></li>
+                    <li><a class="dropdown-item" href="<?php echo base_url ('ver_nivelesacad');?>">Niveles Academicos</a></li>
+                    <li><a class="dropdown-item" href="<?php echo base_url ('ver_regiones');?>">Regiones</a></li>
+                  </ul>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
         <form action="agregar_ciudadano" method="post">
             <div class="mb-3">
                 <label for="txtDpi" class="form-label">Dpi</label>
-                 <input type="text" class="form-control" id="txtDpi" name="txtDpi" placeholder="Ingrese DPI">
+                 <input type="number" class="form-control" id="txtDpi" name="txtDpi" placeholder="Ingrese DPI">
             </div>
             <div class="mb-3">
                 <label for="txtApellido" class="form-label">Apellido</label>
@@ -59,7 +83,7 @@
             </div>
             <div class="mb-3">
                 <label for="txtMuni" class="form-label">Códgio de Municipio</label>
-                 <input type="text" class="form-control" id="txtMuni" name="txtMuni" placeholder="Ingrese su MUnicipio">
+                 <input type="number" class="form-control" id="txtMuni" name="txtMuni" placeholder="Ingrese su MUnicipio">
             </div>
             <button type="submit" class="btn btn-primary" id="btnGuardar" name="btnGuardar">Enviar</button>
         </form>

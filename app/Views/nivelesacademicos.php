@@ -53,6 +53,8 @@
                 <td><?php echo $nivelesacademicos['nombre'];?></td>
                 <td><?php echo $nivelesacademicos['descripcion'];?></td>
                 <td><a href="eliminar_nivelacad/<?php echo $nivelesacademicos['cod_nivel_acad']?>" class="btn btn-danger" >Eliminar</a></td>
+                <td><a href="actualizar_nivelacad/<?php echo $nivelesacademicos['cod_nivel_acad']?>" class="btn btn-info" >Actualizar</a></td>
+
             </tr>
             <?php 
                 endforeach;

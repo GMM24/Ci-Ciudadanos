@@ -53,6 +53,8 @@
                 <td><?php echo $municipios['nombre_municipio'];?></td>
                 <td><?php echo $municipios['cod_depto'];?></td>
                 <td><a href="eliminar_municipio/<?php echo $municipios['cod_muni']?>" class="btn btn-danger" >Eliminar</a></td>
+                <td><a href="actualizar_municipio/<?php echo $municipios['cod_muni']?>" class="btn btn-info" >Actualizar</a></td>
+
             </tr>
             <?php 
                 endforeach;

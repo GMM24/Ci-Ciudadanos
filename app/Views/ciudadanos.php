@@ -56,7 +56,8 @@
             ?>
             <tr>
                 <td><?php echo $ciudadanos['dpi'];?></td>
-                <td><?php echo $ciudadanos['apellido'].", ".$ciudadanos['nombre'];?></td>                <td><?php echo $ciudadanos['direccion'];?></td>
+                <td><?php echo $ciudadanos['apellido'].", ".$ciudadanos['nombre'];?></td>           
+                <td><?php echo $ciudadanos['direccion'];?></td>
                 <td><?php echo $ciudadanos['tel_casa'];?></td>
                 <td><?php echo $ciudadanos['tel_movil'];?></td>
                 <td><?php echo $ciudadanos['email'];?></td>
@@ -64,6 +65,8 @@
                 <td><?php echo $ciudadanos['cod_nivel_acad'];?></td>
                 <td><?php echo $ciudadanos['cod_muni'];?></td>
                 <td><a href="eliminar_ciudadano/<?php echo $ciudadanos['dpi']?>" class="btn btn-danger" >Eliminar</a></td>
+                <td><a href="actualizar_ciudadano/<?php echo $ciudadanos['dpi']?>" class="btn btn-info" >Actualizar</a></td>
+
             </tr>
             <?php 
                 endforeach;

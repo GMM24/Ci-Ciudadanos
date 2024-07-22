@@ -30,6 +30,7 @@ class Ciudadanos extends BaseController
                 'cod_nivel_acad'=> $this->request->getVar('txtNivelAcad'),
                 'cod_muni'=> $this->request->getVar('txtMuni')
             ];
+        $this->model->actualizarCiudadano($dpi,$datos);
         $ciudadanos = new CiudadanosModel();
         $ciudadanos->insert($datos); 
         echo "Datos Guardados";
@@ -41,6 +42,17 @@ class Ciudadanos extends BaseController
         $ciudadanos->delete(['dpi'=>$dpi]);
         return redirect()->route('ver_ciudadanos');
     }
+    public function actualizarCiudadano($dpi,$datos)
+    {
+        $this->db->where('id',$id);
+        $this->db->update('ciudadanos',$datos);
+
+        /*$ciudadanos = new CiudadanosModel();
+        $ciudadanos->update(['dpi'=>$dpi]);
+        return redirect()->route('ver_ciudadanos');*/
+
+    }
+    
         
         
 
