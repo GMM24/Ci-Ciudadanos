@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
-   <div class="container">
-    <h1>Regiones</h1>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Departamentos</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="<?php echo base_url ('/');?>">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,37 +34,30 @@
           </div>
         </div>
       </nav>
-    <table class="table table-border table-striped">
-        <thead>
-        <a href="nueva_region" class="btn btn-primary"><i class="bi bi-plus-circle-fill"></i> Nueva Region</a>
-            <tr>
-                <th>Código</th>
-                <th>Nombre</th>
-                <th>Descripción</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php
-                foreach($datos as $regiones):
-                    
-            ?>
-            <tr>
-                <td><?php echo $regiones['cod_region'];?></td>
-                <td><?php echo $regiones['nombre'];?></td>
-                <td><?php echo $regiones['descripcion'];?></td>
-                <td><a href="actualizar_region/<?php echo $regiones['cod_region']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Actualizar</a></td>
-                <td><a href="eliminar_region/<?php echo $regiones['cod_region']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
+        <form action="agregar_departamento" method="post">
+            <div class="mb-3">
+                <label for="txtCodDepto" class="form-label">Cógido de Departamento</label>
+                 <input type="number" class="form-control" id="txtCodDepto" name="txtCodDepto" placeholder="Ingrese Codigo de Departamento" value="<?=$datos['cod_depto'];?>">
+            </div>
+            <div class="mb-3">
+                <label for="txtNombreDepto" class="form-label">Nombre de Departamento</label>
+                 <input type="text" class="form-control" id="txtNombreDepto" name="txtNombreDepto" placeholder="Ingrese Nombre del Departamento" value="<?=$datos['nombre_depto'];?>">
+            </div>
+            <div class="mb-3">
+                <label for="txtCodRegion" class="form-label">Códgio de Región</label>
+                 <input type="number" class="form-control" id="txtCodRegion" name="txtCodRegion" placeholder="Ingrese la region (1 al 8) para el Departamento" value="<?=$datos['cod_region'];?>">
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnGuardar" name="btnGuardar">Guardar cambios</button>
+        </form>
 
-            </tr>
-            <?php 
-                endforeach;
-            ?>
-        </tbody>
-    </table>
-   </div> 
+
+      
+    </div>
+
+    
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -38,4 +38,11 @@ class Regiones extends BaseController
         $regiones->delete(['cod_region'=>$cod_region]);
         return redirect()->route('ver_regiones');
     }
+    public function actualizarRegion($id = null)
+    {
+        $regiones = new RegionesModel();
+        $datos['datos']=$regiones->where('cod_region',$id)->first();
+        return view('editar_region',$datos);    
+    }
+    
 }

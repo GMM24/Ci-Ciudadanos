@@ -33,5 +33,12 @@ class NivelesAcademicos extends BaseController
         $nivelacademico->delete(['cod_nivel_acad'=>$cod_nivel_acad]);
         return redirect()->route('ver_nivelesacad');
     }
+    public function actualizarNivelAcad($id = null)
+    {
+        $nivelacademico = new NivelesAcadModel();
+        $datos['datos']=$nivelacademico->where('cod_nivel_acad',$id)->first();
+        return view('editar_nivel_acad',$datos);    
+    }
+    
 
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -36,7 +37,7 @@
       </nav>
     <table class="table table-border table-striped">
         <thead>
-        <a href="nuevo_departamento" class="btn btn-primary">Nuevo Departamento</a>
+        <a href="nuevo_departamento" class="btn btn-primary"><i class="bi bi-plus-circle-fill"></i> Nuevo Departamento</a>
             <tr>
                 <th>Código Departamento</th>
                 <th>Nombre Departamento</th>
@@ -52,8 +53,8 @@
                 <td><?php echo $departamentos['cod_depto'];?></td>
                 <td><?php echo $departamentos['nombre_depto'];?></td>
                 <td><?php echo $departamentos['cod_region'];?></td>
-                <td><a href="eliminar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-danger" >Eliminar</a></td>
-                <td><a href="actualizar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-info" >Actualizar</a></td>
+                <td><a href="actualizar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Actualizar</a></td>
+                <td><a href="eliminar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
 
             </tr>
             <?php 

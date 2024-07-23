@@ -33,5 +33,12 @@ class Municipios extends BaseController
         $municipios->delete(['cod_muni'=>$cod_muni]);
         return redirect()->route('ver_municipios');
     }
+    public function actualizarMunicipio($id = null)
+    {
+        $municipios = new MunicipiosModel();
+        $datos['datos']=$municipios->where('cod_muni',$id)->first();
+        return view('editar_municipio',$datos);    
+    }
+    
 
 }

@@ -35,5 +35,12 @@ class Departamentos extends BaseController
         $departamentos->delete(['cod_depto'=>$cod_depto]);
         return redirect()->route('ver_departamentos');
     }
+    public function actualizarDepartamento($id = null)
+    {
+        $departamentos = new DepartamentosModel();
+        $datos['datos']=$departamentos->where('cod_depto',$id)->first();
+        return view('editar_departamento',$datos);    
+    }
+    
     
 }

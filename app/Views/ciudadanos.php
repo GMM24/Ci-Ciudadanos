@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -36,7 +37,7 @@
       </nav>
     <table class="table table-border table-striped">
         <thead>
-        <a href="nuevo_ciudadano" class="btn btn-primary">Nuevo Ciudadano</a>
+        <a href="nuevo_ciudadano" class="btn btn-primary"><i class="bi bi-person-plus-fill"></i> Nuevo Ciudadano</a>
             <tr>
                 <th>Dpi</th>
                 <th>Apellido y Nombre</th>
@@ -64,8 +65,9 @@
                 <td><?php echo $ciudadanos['fechanac'];?></td>
                 <td><?php echo $ciudadanos['cod_nivel_acad'];?></td>
                 <td><?php echo $ciudadanos['cod_muni'];?></td>
-                <td><a href="eliminar_ciudadano/<?php echo $ciudadanos['dpi']?>" class="btn btn-danger" >Eliminar</a></td>
-                <td><a href="actualizar_ciudadano/<?php echo $ciudadanos['dpi']?>" class="btn btn-info" >Actualizar</a></td>
+          
+                <td><a href="<?=base_url('buscar_ciudadano/').$ciudadanos['dpi']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Editar</a></td>
+                <td><a href="<?=base_url('eliminar_ciudadano/').$ciudadanos['dpi']?>" class="btn btn-danger" ><i class="bi bi-person-x-fill"></i> Eliminar</a></td>
 
             </tr>
             <?php 
