@@ -34,7 +34,7 @@
           </div>
         </div>
       </nav>
-        <form action="agregar_municipio" method="post">
+        <form action="<?=base_url('modificar_municipio')?>" method="post">
             <div class="mb-3">
                 <label for="txtCodMuni" class="form-label">Código de Municipio</label>
                  <input type="number" class="form-control" id="txtCodMuni" name="txtCodMuni" placeholder="Ingrese Codigo del Municipio" value="<?=$datos['cod_muni'];?>"  >

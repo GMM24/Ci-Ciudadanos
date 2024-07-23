@@ -34,7 +34,7 @@
           </div>
         </div>
       </nav>
-        <form action="agregar_region" method="post">
+        <form action="<?=base_url('modificar_region')?>" method="post">
             <div class="mb-3">
                 <label for="txtCodRegion" class="form-label">Código de Región</label>
                  <input type="number" class="form-control" id="txtCodRegion" name="txtCodRegion" placeholder="Ingrese codigo de region" value="<?=$datos['cod_region'];?>">

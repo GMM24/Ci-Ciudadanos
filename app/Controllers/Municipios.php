@@ -33,11 +33,22 @@ class Municipios extends BaseController
         $municipios->delete(['cod_muni'=>$cod_muni]);
         return redirect()->route('ver_municipios');
     }
-    public function actualizarMunicipio($id = null)
+    public function buscarMunicipio($id = null)
     {
         $municipios = new MunicipiosModel();
         $datos['datos']=$municipios->where('cod_muni',$id)->first();
         return view('editar_municipio',$datos);    
+    }
+    public function modificarMunicipio()
+    {
+        $datos=[
+            'cod_muni'=> $this->request->getVar('txtCodMuni'),
+            'nombre_municipio'=> $this->request->getVar('txtNombreMuni'),
+            'cod_depto'=> $this->request->getVar('txtDepto')
+        ];
+        $municipios = new MunicipiosModel();
+        $municipios->update($datos['cod_muni'],$datos);
+        return redirect()->route('ver_municipios');
     }
     
 

@@ -53,8 +53,9 @@
                 <td><?php echo $municipios['cod_muni'];?></td>
                 <td><?php echo $municipios['nombre_municipio'];?></td>
                 <td><?php echo $municipios['cod_depto'];?></td>
-                <td><a href="actualizar_municipio/<?php echo $municipios['cod_muni']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Actualizar</a></td>
-                <td><a href="eliminar_municipio/<?php echo $municipios['cod_muni']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
+
+                <td><a href="<?=base_url('buscar_municipio/').$municipios['cod_muni']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Editar</a></td>
+                <td><a href="<?=base_url('eliminar_municipio/').$municipios['cod_muni']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
 
             </tr>
             <?php 

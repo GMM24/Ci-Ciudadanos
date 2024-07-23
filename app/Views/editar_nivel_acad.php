@@ -34,7 +34,7 @@
           </div>
         </div>
       </nav>
-        <form action="agregar_nivel_acad" method="post">
+        <form action="<?=base_url('modificar_nivelacad')?>" method="post">
             <div class="mb-3">
                 <label for="txtNivelAcad" class="form-label">Código Academico</label>
                   <input type="number" class="form-control" id="txtNivelAcad" name="txtNivelAcad" placeholder="Ingrese el nuevo codigo academico" value="<?=$datos['cod_nivel_acad'];?>">

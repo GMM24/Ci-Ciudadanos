@@ -53,8 +53,9 @@
                 <td><?php echo $departamentos['cod_depto'];?></td>
                 <td><?php echo $departamentos['nombre_depto'];?></td>
                 <td><?php echo $departamentos['cod_region'];?></td>
-                <td><a href="actualizar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Actualizar</a></td>
-                <td><a href="eliminar_departamento/<?php echo $departamentos['cod_depto']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
+                
+                <td><a href="<?=base_url('buscar_departamento/').$departamentos['cod_depto']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Editar</a></td>
+                <td><a href="<?=base_url('eliminar_departamento/').$departamentos['cod_depto']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
 
             </tr>
             <?php 

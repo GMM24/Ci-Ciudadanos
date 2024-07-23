@@ -388,3 +388,152 @@ in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:12:16 --> ErrorException: preg_match(): Compilation failed: unmatched closing parenthesis at offset 24
+[Method: GET, Route: ver_nivelesacad]
+in SYSTEMPATH\Router\Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\fs2024\\ci_ciudadanos\\system\\Router\\Router.php', 432)
+ 2 SYSTEMPATH\Router\Router.php(432): preg_match('#^actualizar_departamento)$#u', 'ver_nivelesacad', [])
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('ver_nivelesacad')
+ 4 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('ver_nivelesacad')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:12:18 --> ErrorException: preg_match(): Compilation failed: unmatched closing parenthesis at offset 24
+[Method: GET, Route: ver_nivelesacad]
+in SYSTEMPATH\Router\Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\fs2024\\ci_ciudadanos\\system\\Router\\Router.php', 432)
+ 2 SYSTEMPATH\Router\Router.php(432): preg_match('#^actualizar_departamento)$#u', 'ver_nivelesacad', [])
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('ver_nivelesacad')
+ 4 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('ver_nivelesacad')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:13:09 --> ErrorException: preg_match(): Compilation failed: unmatched closing parenthesis at offset 24
+[Method: GET, Route: ver_regiones]
+in SYSTEMPATH\Router\Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\fs2024\\ci_ciudadanos\\system\\Router\\Router.php', 432)
+ 2 SYSTEMPATH\Router\Router.php(432): preg_match('#^actualizar_departamento)$#u', 'ver_regiones', [])
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('ver_regiones')
+ 4 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('ver_regiones')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:13:13 --> ErrorException: preg_match(): Compilation failed: unmatched closing parenthesis at offset 24
+[Method: GET, Route: ver_municipios]
+in SYSTEMPATH\Router\Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\fs2024\\ci_ciudadanos\\system\\Router\\Router.php', 432)
+ 2 SYSTEMPATH\Router\Router.php(432): preg_match('#^actualizar_departamento)$#u', 'ver_municipios', [])
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('ver_municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('ver_municipios')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:13:20 --> ErrorException: preg_match(): Compilation failed: unmatched closing parenthesis at offset 24
+[Method: GET, Route: buscar_departamento/1]
+in SYSTEMPATH\Router\Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\fs2024\\ci_ciudadanos\\system\\Router\\Router.php', 432)
+ 2 SYSTEMPATH\Router\Router.php(432): preg_match('#^actualizar_departamento)$#u', 'buscar_departamento/1', [])
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('buscar_departamento/1')
+ 4 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('buscar_departamento/1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:20:20 --> ErrorException: preg_match(): Compilation failed: unmatched closing parenthesis at offset 24
+[Method: GET, Route: ver_municipios]
+in SYSTEMPATH\Router\Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\fs2024\\ci_ciudadanos\\system\\Router\\Router.php', 432)
+ 2 SYSTEMPATH\Router\Router.php(432): preg_match('#^actualizar_departamento)$#u', 'ver_municipios', [])
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('ver_municipios')
+ 4 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('ver_municipios')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:20:24 --> ErrorException: preg_match(): Compilation failed: unmatched closing parenthesis at offset 24
+[Method: GET, Route: buscar_departamento/1]
+in SYSTEMPATH\Router\Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\fs2024\\ci_ciudadanos\\system\\Router\\Router.php', 432)
+ 2 SYSTEMPATH\Router\Router.php(432): preg_match('#^actualizar_departamento)$#u', 'buscar_departamento/1', [])
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('buscar_departamento/1')
+ 4 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('buscar_departamento/1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:20:27 --> ErrorException: preg_match(): Compilation failed: unmatched closing parenthesis at offset 24
+[Method: GET, Route: buscar_departamento/1]
+in SYSTEMPATH\Router\Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\fs2024\\ci_ciudadanos\\system\\Router\\Router.php', 432)
+ 2 SYSTEMPATH\Router\Router.php(432): preg_match('#^actualizar_departamento)$#u', 'buscar_departamento/1', [])
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('buscar_departamento/1')
+ 4 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('buscar_departamento/1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:55:06 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "ver_ municipios" cannot be found.
+[Method: POST, Route: modificar_municipio]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ver_ municipios')
+ 2 APPPATH\Controllers\Municipios.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Municipios->modificarMunicipio()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 22:56:26 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "ver_ municipios" cannot be found.
+[Method: POST, Route: modificar_municipio]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ver_ municipios')
+ 2 APPPATH\Controllers\Municipios.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Municipios->modificarMunicipio()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 23:00:26 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "ver_ municipios" cannot be found.
+[Method: POST, Route: modificar_municipio]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ver_ municipios')
+ 2 APPPATH\Controllers\Municipios.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Municipios->modificarMunicipio()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 23:06:07 --> Error: Class "App\Controllers\NivelAcadModel" not found
+[Method: POST, Route: modificar_nivelacad]
+in APPPATH\Controllers\NivelesAcademicos.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NivelesAcademicos->modificarNivelAcad()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NivelesAcademicos))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-23 23:06:23 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "ver_nivel_acad" cannot be found.
+[Method: POST, Route: modificar_nivelacad]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ver_nivel_acad')
+ 2 APPPATH\Controllers\NivelesAcademicos.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NivelesAcademicos->modificarNivelAcad()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NivelesAcademicos))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

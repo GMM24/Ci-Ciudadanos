@@ -53,8 +53,8 @@
                 <td><?php echo $nivelesacademicos['cod_nivel_acad'];?></td>
                 <td><?php echo $nivelesacademicos['nombre'];?></td>
                 <td><?php echo $nivelesacademicos['descripcion'];?></td>
-                <td><a href="actualizar_nivelacad/<?php echo $nivelesacademicos['cod_nivel_acad']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Actualizar</a></td>
-                <td><a href="eliminar_nivelacad/<?php echo $nivelesacademicos['cod_nivel_acad']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
+                <td><a href="<?=base_url('buscar_nivelacad/').$nivelesacademicos['cod_nivel_acad']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i>Editar</a></td>
+                <td><a href="<?=base_url('eliminar_nivelacad/').$nivelesacademicos['cod_nivel_acad']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
 
             </tr>
             <?php 

@@ -34,7 +34,7 @@
           </div>
         </div>
       </nav>
-        <form action="agregar_departamento" method="post">
+        <form action="<?=base_url('modificar_departamento')?>" method="post">
             <div class="mb-3">
                 <label for="txtCodDepto" class="form-label">Cógido de Departamento</label>
                  <input type="number" class="form-control" id="txtCodDepto" name="txtCodDepto" placeholder="Ingrese Codigo de Departamento" value="<?=$datos['cod_depto'];?>">

@@ -53,8 +53,8 @@
                 <td><?php echo $regiones['cod_region'];?></td>
                 <td><?php echo $regiones['nombre'];?></td>
                 <td><?php echo $regiones['descripcion'];?></td>
-                <td><a href="actualizar_region/<?php echo $regiones['cod_region']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Actualizar</a></td>
-                <td><a href="eliminar_region/<?php echo $regiones['cod_region']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
+                <td><a href="<?=base_url('buscar_region/').$regiones['cod_region']?>" class="btn btn-info" ><i class="bi bi-pencil-fill"></i> Editar</a></td>
+                <td><a href="<?=base_url('eliminar_region/').$regiones['cod_region']?>" class="btn btn-danger" ><i class="bi bi-x-circle-fill"></i> Eliminar</a></td>
 
             </tr>
             <?php 
